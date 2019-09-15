@@ -3,8 +3,9 @@
 
 void main()
 {
-
     test_comma();
+    printf("testing other doubts\n");
+    random_question();
     printf("program ran successfully\n");
 }
 
@@ -94,4 +95,26 @@ int geek_for_geek_q30()
     printf("x = %d\n", x);
 
     return 0;
+}
+
+int random_question()
+{
+    int i = 5;
+    int ii = 5;
+    int j = 4;
+    int k = 9;
+    int l = 10;
+    int m = 10;
+    int n = 10;
+    int p = 10;
+    printf("i = %d  i = %d  i = %d  i = %d i = %d\n",i++, ++i, i++, ++i, i);
+    printf("ii = %d  ii = %d  ii = %d  ii = %d ii = %d\n",ii, ++ii, ii++, ++ii, ++ii);
+    printf("k = %d  k = %d  k = %d  k = %d k = %d\n",k++, k++, k++, k++, k);
+    printf("l = %d  l = %d  l = %d  l = %d l = %d l = %d  l = %d  l = %d  l = %d\n",l++, l++, l++, l++, l++, l++, l++, l++, l++);
+    printf("m = %d  m = %d  m = %d  m = %d m = %d m = %d  m = %d  m = %d  m = %d\n",m++, m++, m++, m++, m++, m++, m++, m++, m);
+    printf("n = %d  n = %d  n = %d  n = %d n = %d n = %d  n = %d  n = %d  n = %d\n",n  , n++, n++, n++, n++, n++, n++, n++, n + 1);
+    printf("p = %d  p = %d  p = %d  p = %d p = %d p = %d  p = %d  p = %d  p = %d\n",p  , ++p, ++p, ++p, ++p, ++p, ++p, ++p, p + 1);
+    printf("j = %d  j = %d \n",j++, j);
+    printf("j = %d  j = %d \n",++j, j);
+    printf("i = %d\n",i);
 }
